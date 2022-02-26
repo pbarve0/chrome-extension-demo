@@ -1,0 +1,41 @@
+
+body {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  background: white;
+}
+
+div:first-child {
+  margin-top: 0px;
+}
+
+div {
+  cursor: pointer;
+  text-align: center;
+  padding: 1px 3px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  width: 100px;
+  margin-top: 1px;
+  background: #cccccc;
+}
+div:hover {
+  background: #aaaaaa;
+}
+#red {
+  border: 1px solid rgb(230, 81, 81);
+  color: rgb(230, 81, 81);
+}
+#blue {
+  border: 1px solid rgb(157, 203, 228);
+  color: rgb(157, 203, 228);
+}
+#green {
+  border: 1px solid rgb(189, 245, 189);
+  color: rgb(189, 245, 189);
+}
+#yellow {
+  border: 1px solid rgb(243, 243, 131);
+  color: rgb(243, 243, 131);
+}
